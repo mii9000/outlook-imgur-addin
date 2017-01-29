@@ -1,0 +1,28 @@
+{
+  "name": "outlookimgur",
+  "version": "1.0.0",
+  "description": "Access your imgur directly from Outlook",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.1.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "del": "^2.2.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-uglify": "^2.0.0",
+    "gulp-webserver": "^0.9.1",
+    "run-sequence": "^1.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ibrahim-Islam/outlook-imgur-addin.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ibrahim-Islam/outlook-imgur-addin/issues"
+  },
+  "homepage": "https://github.com/Ibrahim-Islam/outlook-imgur-addin#readme"
+}

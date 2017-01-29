@@ -1,0 +1,117 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    height: 100%;
+    max-height: 100%;
+}
+
+body {
+    font-family: "Segoe WP", "Segoe UI", "Arial", sans-serif;
+    font-size: 12px;
+    background-color: #34373c;
+}
+
+body {
+    scrollbar-base-color: white;
+    scrollbar-arrow-color: #ababab;
+    scrollbar-highlight-color: #ababab;
+    scrollbar-darkshadow-color: white;
+    scrollbar-track-color: white;
+    scrollbar-face-color: white;
+}
+
+.button {
+    background-color: #1bb76e; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.button1 {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.button2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.main{
+    margin: auto;
+    width: 184px;
+}
+
+.center{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+body {
+    background-color: #34373c;
+}
+.loader-wrapper {
+  display: block;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translatey(-50%);
+  -moz-transform: translatey(-50%);
+  transform: translatey(-50%);
+  width: 100%;
+}
+.loader, .loader:before, .loader:after {
+    background: #1bb76e;
+    -webkit-animation: load1 1s infinite ease-in-out;
+    animation: load1 1s infinite ease-in-out;
+    width: 1em;
+    height: 4em;
+}
+.loader:before, .loader:after {
+    position: absolute;
+    top: 0;
+    content:'';
+}
+.loader:before {
+    left: -1.5em;
+}
+.loader {
+    text-indent: -9999em;
+    margin: 0 auto;
+    position: relative;
+    font-size: 11px;
+    -webkit-animation-delay: 0.16s;
+    animation-delay: 0.16s;
+}
+.loader:after {
+    left: 1.5em;
+    -webkit-animation-delay: 0.32s;
+    animation-delay: 0.32s;
+}
+@-webkit-keyframes load1 {
+    0%, 80%, 100% {
+        box-shadow: 0 0 #1bb76e;
+        height: 4em;
+    }
+    40% {
+        box-shadow: 0 -2em #1bb76e;
+        height: 5em;
+    }
+}
+@keyframes load1 {
+    0%, 80%, 100% {
+        box-shadow: 0 0 #1bb76e;
+        height: 4em;
+    }
+    40% {
+        box-shadow: 0 -2em #1bb76e;
+        height: 5em;
+    }
+}
